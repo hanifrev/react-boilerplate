@@ -38,6 +38,10 @@ module.exports = {
             loader: 'css-loader'
           }
         ]
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif|tiff)$/,
+        use: ['file-loader']
       }
     ]
   },
