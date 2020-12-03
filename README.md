@@ -18,5 +18,5 @@ $ rm -rf .git
 ## Install
 
 ```
-npm install
+$ npm install
 ```
